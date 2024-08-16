@@ -10,3 +10,6 @@ This project was breadboarded; to aid in debugging, the PIC32 also initializes U
 All MPLABX project files are included. If you're looking for just the source code, it's in _MCP2515-Example.X/src_.
 
 I have also included the breadboard schematic. It is a **bare-minimum** implementation that gets things to work - it leaves a lot of room for improvement. Yes, all capacitors and resistors are required (ask me how I know).
+
+# Kvaser CAN King Output
+![CAN King Output](https://raw.githubusercontent.com/WebsterXC/MCP2515-Example/main/schematics/CANKing_Output.png)
