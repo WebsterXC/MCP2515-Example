@@ -8,3 +8,5 @@ This software repeatedly sends CAN message 0x18FABC33 with increasing values in 
 This project was breadboarded; to aid in debugging, the PIC32 also initializes UART2 to send data to an MCP2221A USB transciever (115200 baud). I've provided a short Powershell script that will read this terminal output, but you may need to edit 'COM3' to whatever your USB-UART bridge ends up enumerating to.
 
 All MPLABX project files are included. If you're looking for just the source code, it's in _MCP2515-Example.X/src_.
+
+I have also included the breadboard schematic. It is a **bare-minimum** implementation that gets things to work - it leaves a lot of room for improvement. Yes, all capacitors and resistors are required (ask me how I know).
